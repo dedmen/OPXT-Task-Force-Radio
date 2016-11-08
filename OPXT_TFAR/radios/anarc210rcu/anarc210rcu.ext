@@ -1,0 +1,157 @@
+/* #Numiry
+$[
+	1.063,
+	["anprc210",[["0","0","1","1"],"0.0025","0.004","GUI_GRID"],0,1,1],
+	[1200,"background",[1,"opxt_tfar\radios\anarc210rcu\anarc210rcu.paa",["0.156411 * safezoneW + safezoneX","-0.0960534 * safezoneH + safezoneY","0.634594 * safezoneW","1.10205 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1400,"channel_edit",[1,"CH:3",["0.397364 * safezoneW + safezoneX","0.349576 * safezoneH + safezoneY","0.0405259 * safezoneW","0.0911943 * safezoneH"],[0,0,0,1],[0,0,0,1],[0,0,0,1],"Current channel","-1"],[]],
+	[1401,"edit",[1,"88.8",["0.439211 * safezoneW + safezoneX","0.349576 * safezoneH + safezoneY","0.111006 * safezoneW","0.0911943 * safezoneH"],[0,0,0,1],[0,0,0,1],[0,0,0,1],"Current frequency","-1"],[]],
+	[1600,"enter",[1,"",["0.635674 * safezoneW + safezoneX","0.427609 * safezoneH + safezoneY","0.0308349 * safezoneW","0.0545285 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"Set frequency","-1"],[]],
+	[1601,"clear",[1,"",["0.330849 * safezoneW + safezoneX","0.468035 * safezoneH + safezoneY","0.0629913 * safezoneW","0.109997 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"Clear frequency","-1"],[]],
+	[1604,"increase_volume",[1,"",["0.326003 * safezoneW + safezoneX","0.355217 * safezoneH + safezoneY","0.0224654 * safezoneW","0.038546 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"Change volume","-1"],[]],
+	[1605,"stereo",[1,"",["0.480178 * safezoneW + safezoneX","0.508461 * safezoneH + safezoneY","0.0308349 * safezoneW","0.0535884 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1615,"additional",[1,"",["0.553741 * safezoneW + safezoneX","0.468035 * safezoneH + safezoneY","0.0629913 * safezoneW","0.109997 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1616,"speakers",[1,"",["0.436128 * safezoneW + safezoneX","0.508461 * safezoneH + safezoneY","0.0312754 * safezoneW","0.0535884 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1602,"channel_Switch",[1,"",["0.590302 * safezoneW + safezoneX","0.360858 * safezoneH + safezoneY","0.0400854 * safezoneW","0.070511 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]]
+]
+*/
+
+
+class anarc210rcu_radio_dialog {
+	idd = IDD_ANARC210RCU_RADIO_DIALOG;
+	movingEnable = 1;
+	controlsBackground[] = {};
+	objects[] = {};
+	onUnload = "['OnRadioOpen', player, [player, TF_lr_dialog_radio, true, 'anarc210rcu_radio_dialog', false]] call TFAR_fnc_fireEventHandlers;";
+	controls[] = {
+		background,
+		channel_edit,
+		edit,
+		enter,
+		clear,
+		increase_volume,
+		stereo,
+		additional,
+		speakers,
+		channel_switch
+	};
+
+////////////////////////////////////////////////////////
+// GUI EDITOR OUTPUT START (by Ma77, v1.063, #Doreqo)
+////////////////////////////////////////////////////////
+
+class background: RscBackPicture
+{
+	idc = IDC_ANARC210RCU_BACKGROUND;
+	text = "opxt_tfar\radios\anarc210rcu\anarc210rcu.paa";
+	x = 0.156411 * safezoneW + safezoneX;
+	y = -0.0960534 * safezoneH + safezoneY;
+	w = 0.634594 * safezoneW;
+	h = 1.10205 * safezoneH;
+	moving = 1;
+};
+class channel_edit: RscEditLCD
+{
+	idc = IDC_ANARC210RCU_CHANNEL_EDIT;
+	text = "";
+	x = 0.397364 * safezoneW + safezoneX;
+	y = 0.349576 * safezoneH + safezoneY;
+	w = 0.0405259 * safezoneW;
+	h = 0.0911943 * safezoneH;
+	colorBackground[] = {0,0,0,0};
+	colorText[] = {1,0.5,0,1};
+	font = "tf_font_segments";
+	shadow = 1;
+	sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 32) * 1.2)";
+	tooltip = $STR_current_channel;
+	canModify = 0;
+};
+class edit: RscEditLCD
+{
+	idc = IDC_ANARC210RCU_EDIT;
+	text = "";
+	x = 0.439211 * safezoneW + safezoneX;
+	y = 0.349576 * safezoneH + safezoneY;
+	w = 0.111006 * safezoneW;
+	h = 0.0911943 * safezoneH;
+	colorBackground[] = {0,0,0,0};
+	colorText[] = {1,0.5,0,1};
+	font = "tf_font_segments";
+	shadow = 1;
+	sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 32) * 1.2)";
+	tooltip = $STR_current_freq;
+	canModify = 1;
+};
+class enter: HiddenButton
+{
+	idc = IDC_ANARC210RCU_ENTER;
+	x = 0.635674 * safezoneW + safezoneX;
+	y = 0.427609 * safezoneH + safezoneY;
+	w = 0.0308349 * safezoneW;
+	h = 0.0545285 * safezoneH;
+	tooltip = $STR_set_frequency;
+	action = "_f = parseNumber(ctrlText IDC_ANPRC210_RADIO_DIALOG_EDIT_ID);if ((_f >= TF_MIN_ASIP_FREQ) and (_f <= TF_MAX_ASIP_FREQ)) then {[TF_lr_dialog_radio select 0, TF_lr_dialog_radio select 1, str (round (_f * TF_FREQ_ROUND_POWER) / TF_FREQ_ROUND_POWER)] call TFAR_fnc_setLrFrequency; call TFAR_fnc_hideHint;} else {hint formatText [localize 'STR_incorrect_frequency', TF_MIN_ASIP_FREQ, TF_MAX_ASIP_FREQ]}; [""CH%1""] call TFAR_fnc_updateLRDialogToChannel;";
+};
+class clear: HiddenButton
+{
+	idc = IDC_ANARC210RCU_CLEAR;
+	x = 0.330849 * safezoneW + safezoneX;
+	y = 0.468035 * safezoneH + safezoneY;
+	w = 0.0629913 * safezoneW;
+	h = 0.109997 * safezoneH;
+	tooltip = $STR_clear_frequency;
+	action = "ctrlSetText [IDC_ANPRC210_RADIO_DIALOG_EDIT_ID, '']; ctrlSetFocus ((findDisplay IDC_ANPRC210_RADIO_DIALOG_ID) displayCtrl IDC_ANPRC210_RADIO_DIALOG_EDIT_ID);";
+};
+class increase_volume: HiddenButton
+{
+	idc = IDC_ANARC210RCU_INCREASE_VOLUME;
+	x = 0.326003 * safezoneW + safezoneX;
+	y = 0.355217 * safezoneH + safezoneY;
+	w = 0.0224654 * safezoneW;
+	h = 0.038546 * safezoneH;
+	tooltip = $STR_rotator_volume;
+	onMouseButtonDown = "[_this select 1, true] call TFAR_fnc_setVolumeViaDialog;";
+};
+class stereo: HiddenButton
+{
+	idc = IDC_ANARC210RCU_STEREO;
+	x = 0.480178 * safezoneW + safezoneX;
+	y = 0.508461 * safezoneH + safezoneY;
+	w = 0.0308349 * safezoneW;
+	h = 0.0535884 * safezoneH;
+	action = "[TF_lr_dialog_radio select 0, TF_lr_dialog_radio select 1, ((TF_lr_dialog_radio call TFAR_fnc_getCurrentLrStereo) + 1) mod TF_MAX_STEREO] call TFAR_fnc_setLrStereo;[TF_lr_dialog_radio] call TFAR_fnc_ShowRadioVolume;";
+	tooltip = $STR_stereo_settings;
+};
+class additional: HiddenButton
+{
+	idc = IDC_ANARC210RCU_ADDITIONAL;
+	x = 0.553741 * safezoneW + safezoneX;
+	y = 0.468035 * safezoneH + safezoneY;
+	w = 0.0629913 * safezoneW;
+	h = 0.109997 * safezoneH;
+	tooltip = $STR_set_additional;
+	action = "[TF_lr_dialog_radio select 0, TF_lr_dialog_radio select 1, TF_lr_dialog_radio call TFAR_fnc_getLrChannel] call TFAR_fnc_setAdditionalLrChannel; call TFAR_fnc_updateLRDialogToChannel; [TF_lr_dialog_radio, true] call TFAR_fnc_ShowRadioInfo;";
+};
+class speakers: HiddenButton
+{
+	idc = IDC_ANARC210RCU_SPEAKERS;
+	x = 0.436128 * safezoneW + safezoneX;
+	y = 0.508461 * safezoneH + safezoneY;
+	w = 0.0312754 * safezoneW;
+	h = 0.0535884 * safezoneH;
+	tooltip = $STR_speakers_settings_true;
+	action = "playSound 'TFAR_rotatorPush';[TF_lr_dialog_radio select 0, TF_lr_dialog_radio select 1] call TFAR_fnc_setLrSpeakers;[TF_lr_dialog_radio] call TFAR_fnc_ShowRadioSpeakers;";
+};
+class channel_switch: HiddenButton
+{
+	idc = IDC_ANARC210RCU_CHANNEL_SWITCH;
+	x = 0.590302 * safezoneW + safezoneX;
+	y = 0.360858 * safezoneH + safezoneY;
+	w = 0.0400854 * safezoneW;
+	h = 0.070511 * safezoneH;
+	tooltip = $STR_rotator_channel;
+	onMouseButtonDown ="[_this select 1, true] call TFAR_fnc_setChannelViaDialog;";
+};
+////////////////////////////////////////////////////////
+// GUI EDITOR OUTPUT END
+////////////////////////////////////////////////////////
+};
