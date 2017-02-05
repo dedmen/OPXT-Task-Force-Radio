@@ -14,6 +14,86 @@ class OPXT_aor1_1523: tf_rt1523g {
 	maximumLoad = 320;
 	model = "\task_force_radio_items\models\clf_nicecomm2";
 };
+class OPXT_at_atx_1523: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G A-Tacs AT-X";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\at_atx_1523_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\at_atx_1523.paa"};
+	mass = 60;
+	maximumLoad = 320;
+	model = "\task_force_radio_items\models\clf_nicecomm2";
+};
+class OPXT_at_au_1523: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G A-Tacs AU";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\at_au_1523_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\at_au_1523.paa"};
+	mass = 60;
+	maximumLoad = 320;
+	model = "\task_force_radio_items\models\clf_nicecomm2";
+};
+class OPXT_at_fg_1523: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G A-Tacs FG";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\at_fg_1523_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\at_fg_1523.paa"};
+	mass = 60;
+	maximumLoad = 320;
+	model = "\task_force_radio_items\models\clf_nicecomm2";
+};
+class OPXT_at_ix_1523: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G A-Tacs iX";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\at_ix_1523_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\at_ix_1523.paa"};
+	mass = 60;
+	maximumLoad = 320;
+	model = "\task_force_radio_items\models\clf_nicecomm2";
+};
+class OPXT_at_le_1523: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G A-Tacs LE";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\at_le_1523_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\at_le_1523.paa"};
+	mass = 60;
+	maximumLoad = 320;
+	model = "\task_force_radio_items\models\clf_nicecomm2";
+};
+class OPXT_blk_1523: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G Black";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\blk_1523_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\blk_1523.paa"};
+	mass = 60;
+	maximumLoad = 320;
+	model = "\task_force_radio_items\models\clf_nicecomm2";
+};
+class OPXT_krtk_rad_1523: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G Kryptek Raid";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\krtk_rad_1523_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\krtk_rad_1523.paa"};
+	mass = 60;
+	maximumLoad = 320;
+	model = "\task_force_radio_items\models\clf_nicecomm2";
+};
+class OPXT_krtk_yet_1523: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G Kryptek Yeti";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\krtk_yet_1523_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\krtk_yet_1523.paa"};
+	mass = 60;
+	maximumLoad = 320;
+	model = "\task_force_radio_items\models\clf_nicecomm2";
+};
 class OPXT_m81_1523: tf_rt1523g {
 	author = "Ma77h3hac83r";
 	scope = 2;
@@ -24,12 +104,32 @@ class OPXT_m81_1523: tf_rt1523g {
 	maximumLoad = 320;
 	model = "\task_force_radio_items\models\clf_nicecomm2";
 };
+class OPXT_m81c_1523: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G M81 Concrete";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\m81c_1523_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\m81c_1523.paa"};
+	mass = 60;
+	maximumLoad = 320;
+	model = "\task_force_radio_items\models\clf_nicecomm2";
+};
 class OPXT_multicam_1523: tf_rt1523g {
 	author = "Ma77h3hac83r";
 	scope = 2;
 	displayName = "[OPXT] RT-1523G Multicam";
 	picture = "\OPXT_TFAR_ITEMS\data\ui\multicam_1523_ui.paa";
 	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\multicam_1523.paa"};
+	mass = 60;
+	maximumLoad = 320;
+	model = "\task_force_radio_items\models\clf_nicecomm2";
+};
+class OPXT_multicama_1523: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G Multicam Alpine";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\multicama_1523_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\multicama_1523.paa"};
 	mass = 60;
 	maximumLoad = 320;
 	model = "\task_force_radio_items\models\clf_nicecomm2";
@@ -74,6 +174,16 @@ class OPXT_ogao_1523: tf_rt1523g {
 	maximumLoad = 320;
 	model = "\task_force_radio_items\models\clf_nicecomm2";
 };
+class OPXT_pen_sno_1523: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G Pencott Snowdrift";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\pen_sno_1523_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\pen_sno_1523.paa"};
+	mass = 60;
+	maximumLoad = 320;
+	model = "\task_force_radio_items\models\clf_nicecomm2";
+};
 class OPXT_po_1523: tf_rt1523g {
 	author = "Ma77h3hac83r";
 	scope = 2;
@@ -94,6 +204,16 @@ class OPXT_scorpion_1523: tf_rt1523g {
 	maximumLoad = 320;
 	model = "\task_force_radio_items\models\clf_nicecomm2";
 };
+class OPXT_wht_1523: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G White";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\wht_1523_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\wht_1523.paa"};
+	mass = 60;
+	maximumLoad = 320;
+	model = "\task_force_radio_items\models\clf_nicecomm2";
+};
 
 //---------- AN/PRC-117 ----------//
 
@@ -103,6 +223,86 @@ class OPXT_aor1_117: tf_rt1523g {
 	displayName = "[OPXT] RT-1523G (small) AOR1";
 	picture = "\OPXT_TFAR_ITEMS\data\ui\aor1_117_ui.paa";
 	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\aor1_117.paa"};
+	mass = 20;
+	maximumLoad = 160;
+	model="\task_force_radio_items\models\clf_prc117g_ap";
+};
+class OPXT_at_atx_117: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G (small) A-Tacs AT-X";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\at_atx_117_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\at_atx_117.paa"};
+	mass = 20;
+	maximumLoad = 160;
+	model="\task_force_radio_items\models\clf_prc117g_ap";
+};
+class OPXT_at_au: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G (small) A-Tacs AU";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\at_au_117_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\at_au_117.paa"};
+	mass = 20;
+	maximumLoad = 160;
+	model="\task_force_radio_items\models\clf_prc117g_ap";
+};
+class OPXT_at_fg: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G (small) A-Tacs FG";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\at_fg_117_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\at_fg_117.paa"};
+	mass = 20;
+	maximumLoad = 160;
+	model="\task_force_radio_items\models\clf_prc117g_ap";
+};
+class OPXT_at_ix: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G (small) A-Tacs iX";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\at_ix_117_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\at_ix_117.paa"};
+	mass = 20;
+	maximumLoad = 160;
+	model="\task_force_radio_items\models\clf_prc117g_ap";
+};
+class OPXT_at_le: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G (small) A-Tacs LE";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\at_le_117_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\at_le_117.paa"};
+	mass = 20;
+	maximumLoad = 160;
+	model="\task_force_radio_items\models\clf_prc117g_ap";
+};
+class OPXT_blk_117: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G (small) Black";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\blk_117_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\blk_117.paa"};
+	mass = 20;
+	maximumLoad = 160;
+	model="\task_force_radio_items\models\clf_prc117g_ap";
+};
+class OPXT_krtk_rad: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G (small) Kryptek Raid";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\krtk_rad_117_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\krtk_rad_117.paa"};
+	mass = 20;
+	maximumLoad = 160;
+	model="\task_force_radio_items\models\clf_prc117g_ap";
+};
+class OPXT_krtk_yet_117: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G (small) Kryptek Yeti";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\krtk_yet_117_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\krtk_yet_117.paa"};
 	mass = 20;
 	maximumLoad = 160;
 	model="\task_force_radio_items\models\clf_prc117g_ap";
@@ -117,12 +317,32 @@ class OPXT_m81_117: tf_rt1523g {
 	maximumLoad = 160;
 	model="\task_force_radio_items\models\clf_prc117g_ap";
 };
+class OPXT_m81c_117: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G (small) M81 Concrete";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\m81c_117_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\m81c_117.paa"};
+	mass = 20;
+	maximumLoad = 160;
+	model="\task_force_radio_items\models\clf_prc117g_ap";
+};
 class OPXT_multicam_117: tf_rt1523g {
 	author = "Ma77h3hac83r";
 	scope = 2;
 	displayName = "[OPXT] RT-1523G (small) Multicam";
 	picture = "\OPXT_TFAR_ITEMS\data\ui\multicam_117_ui.paa";
 	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\multicam_117.paa"};
+	mass = 20;
+	maximumLoad = 160;
+	model="\task_force_radio_items\models\clf_prc117g_ap";
+};
+class OPXT_multicama_117: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G (small) Multicam Alpine";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\multicama_117_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\multicama_117.paa"};
 	mass = 20;
 	maximumLoad = 160;
 	model="\task_force_radio_items\models\clf_prc117g_ap";
@@ -167,6 +387,16 @@ class OPXT_ogao_117: tf_rt1523g {
 	maximumLoad = 160;
 	model="\task_force_radio_items\models\clf_prc117g_ap";
 };
+class OPXT_pen_sno_117: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G (small) Pencott Snowdrift";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\pen_sno_117_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\pen_sno_117.paa"};
+	mass = 20;
+	maximumLoad = 160;
+	model="\task_force_radio_items\models\clf_prc117g_ap";
+};
 class OPXT_po_117: tf_rt1523g {
 	author = "Ma77h3hac83r";
 	scope = 2;
@@ -187,6 +417,16 @@ class OPXT_scorpion_117: tf_rt1523g {
 	maximumLoad = 160;
 	model="\task_force_radio_items\models\clf_prc117g_ap";
 };
+class OPXT_wht_117: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G (small) White";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\wht_117_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\wht_117.paa"};
+	mass = 20;
+	maximumLoad = 160;
+	model="\task_force_radio_items\models\clf_prc117g_ap";
+};
 
 //---------- AN/ARC-210 ----------//
 
@@ -196,6 +436,66 @@ class OPXT_aor1_210: tf_anarc210 {
 	displayName = "[OPXT] AN/ARC-210 AOR1";
 	picture = "\OPXT_TFAR_ITEMS\data\ui\aor1_210_ui.paa";
 	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\aor1_210.paa"};
+	mass = 50;
+	maximumLoad = 280;
+	model = "\task_force_radio_items\models\TFR_BACKPACK";
+};
+class OPXT_at_atx_210: tf_anarc210 {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] AN/ARC-210 A-Tacs AT-X";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\at_atx_210_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\at_atx_210.paa"};
+	mass = 50;
+	maximumLoad = 280;
+	model = "\task_force_radio_items\models\TFR_BACKPACK";
+};
+class OPXT_at_au_210: tf_anarc210 {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] AN/ARC-210 A-Tacs AU";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\at_au_210_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\at_au_210.paa"};
+	mass = 50;
+	maximumLoad = 280;
+	model = "\task_force_radio_items\models\TFR_BACKPACK";
+};
+class OPXT_at_fg_210: tf_anarc210 {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] AN/ARC-210 A-Tacs FG";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\at_fg_210_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\at_fg_210.paa"};
+	mass = 50;
+	maximumLoad = 280;
+	model = "\task_force_radio_items\models\TFR_BACKPACK";
+};
+class OPXT_at_ix_210: tf_anarc210 {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] AN/ARC-210 A-Tacs iX";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\at_ix_210_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\at_ix_210.paa"};
+	mass = 50;
+	maximumLoad = 280;
+	model = "\task_force_radio_items\models\TFR_BACKPACK";
+};
+class OPXT_at_le_210: tf_anarc210 {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] AN/ARC-210 AOR1";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\at_le_210_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\at_le_210.paa"};
+	mass = 50;
+	maximumLoad = 280;
+	model = "\task_force_radio_items\models\TFR_BACKPACK";
+};
+class OPXT_blk_210: tf_anarc210 {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] AN/ARC-210 Black";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\blk_210_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\blk_210.paa"};
 	mass = 50;
 	maximumLoad = 280;
 	model = "\task_force_radio_items\models\TFR_BACKPACK";
@@ -210,12 +510,32 @@ class OPXT_m81_210: tf_anarc210 {
 	maximumLoad = 280;
 	model = "\task_force_radio_items\models\TFR_BACKPACK";
 };
+class OPXT_m81c_210: tf_anarc210 {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] AN/ARC-210 M81 Concrete";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\m81c_210_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\m81c_210.paa"};
+	mass = 50;
+	maximumLoad = 280;
+	model = "\task_force_radio_items\models\TFR_BACKPACK";
+};
 class OPXT_multicam_210: tf_anarc210 {
 	author = "Ma77h3hac83r";
 	scope = 2;
 	displayName = "[OPXT] AN/ARC-210 Multicam";
 	picture = "\OPXT_TFAR_ITEMS\data\ui\multicam_210_ui.paa";
 	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\multicam_210.paa"};
+	mass = 50;
+	maximumLoad = 280;
+	model = "\task_force_radio_items\models\TFR_BACKPACK";
+};
+class OPXT_multicama_210: tf_anarc210 {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] AN/ARC-210 Multicam Alpine";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\multicama_210_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\multicama_210.paa"};
 	mass = 50;
 	maximumLoad = 280;
 	model = "\task_force_radio_items\models\TFR_BACKPACK";
@@ -260,6 +580,16 @@ class OPXT_ogao_210: tf_anarc210 {
 	maximumLoad = 280;
 	model = "\task_force_radio_items\models\TFR_BACKPACK";
 };
+class OPXT_pen_sno_210: tf_anarc210 {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] AN/ARC-210 Pencott Snowdrift";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\pen_sno_210_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\pen_sno_210.paa"};
+	mass = 50;
+	maximumLoad = 280;
+	model = "\task_force_radio_items\models\TFR_BACKPACK";
+};
 class OPXT_po_210: tf_anarc210 {
 	author = "Ma77h3hac83r";
 	scope = 2;
@@ -276,6 +606,16 @@ class OPXT_scorpion_210: tf_anarc210 {
 	displayName = "[OPXT] AN/ARC-210 Scorpion";
 	picture = "\OPXT_TFAR_ITEMS\data\ui\scorpion_210_ui.paa";
 	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\scorpion_210.paa"};
+	mass = 50;
+	maximumLoad = 280;
+	model = "\task_force_radio_items\models\TFR_BACKPACK";
+};
+class OPXT_wht_210: tf_anarc210 {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] AN/ARC-210 White";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\wht_210_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\wht_210.paa"};
 	mass = 50;
 	maximumLoad = 280;
 	model = "\task_force_radio_items\models\TFR_BACKPACK";

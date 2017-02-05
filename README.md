@@ -2,7 +2,7 @@
 <p align="center">
 <img src="http://i.imgur.com/YQQOVlq.png" width="500px" /><br />
   <a href="https://github.com/Ma77h3hac83r/OPXT-Task-Force-Radio/releases">
-    <img src="https://img.shields.io/badge/Version-1.0.0-red.svg" alt="Version">
+    <img src="https://img.shields.io/badge/Version-1.2.0-red.svg" alt="Version">
   </a>
   <a href="https://github.com/Ma77h3hac83r/OPXT-Task-Force-Radio/issues">
     <img src="https://img.shields.io/github/issues-raw/Ma77h3hac83r/OPXT-Task-Force-Radio.svg?&label=Issues" alt="Issues">
@@ -27,6 +27,15 @@
 
 OPXT Task Force Radio is a collection of retextured backpacks for TFAR.
 
+The packs that have been retextured are the RT-1523G (large & small) and the AN/ARC-210 Airborne.
+
 Current collection includes
-- camo
-- camo
+- AOR1
+- A-Tacs AT-X, AU, FG, iX, LE
+- Black, Gray, Green, Tan, White
+- Kryptek Raid, Yeti
+- M81 Concrete, Woodland
+- Multicam, Alpine, Tropic
+- Pencott Snowdrift
+- Project Honor
+- Scorpion
