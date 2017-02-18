@@ -54,22 +54,32 @@ class OPXT_at_ix_1523: tf_rt1523g {
 	maximumLoad = 320;
 	model = "\task_force_radio_items\models\clf_nicecomm2";
 };
-class OPXT_at_le_1523: tf_rt1523g {
-	author = "Ma77h3hac83r";
-	scope = 2;
-	displayName = "[OPXT] RT-1523G A-Tacs LE";
-	picture = "\OPXT_TFAR_ITEMS\data\ui\at_le_1523_ui.paa";
-	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\at_le_1523.paa"};
-	mass = 60;
-	maximumLoad = 320;
-	model = "\task_force_radio_items\models\clf_nicecomm2";
-};
 class OPXT_blk_1523: tf_rt1523g {
 	author = "Ma77h3hac83r";
 	scope = 2;
 	displayName = "[OPXT] RT-1523G Black";
 	picture = "\OPXT_TFAR_ITEMS\data\ui\blk_1523_ui.paa";
 	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\blk_1523.paa"};
+	mass = 60;
+	maximumLoad = 320;
+	model = "\task_force_radio_items\models\clf_nicecomm2";
+};
+class OPXT_krtk_ban_1523: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G Kryptek Banshee";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\krtk_ban_1523_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\krtk_ban_1523.paa"};
+	mass = 60;
+	maximumLoad = 320;
+	model = "\task_force_radio_items\models\clf_nicecomm2";
+};
+class OPXT_krtk_nom_1523: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G Kryptek Nomad";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\krtk_nom_1523_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\krtk_nom_1523.paa"};
 	mass = 60;
 	maximumLoad = 320;
 	model = "\task_force_radio_items\models\clf_nicecomm2";
@@ -84,12 +94,22 @@ class OPXT_krtk_rad_1523: tf_rt1523g {
 	maximumLoad = 320;
 	model = "\task_force_radio_items\models\clf_nicecomm2";
 };
-class OPXT_krtk_yet_1523: tf_rt1523g {
+class OPXT_krtk_rad_1523: tf_rt1523g {
 	author = "Ma77h3hac83r";
 	scope = 2;
-	displayName = "[OPXT] RT-1523G Kryptek Yeti";
-	picture = "\OPXT_TFAR_ITEMS\data\ui\krtk_yet_1523_ui.paa";
-	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\krtk_yet_1523.paa"};
+	displayName = "[OPXT] RT-1523G Kryptek Raid";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\krtk_rad_1523_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\krtk_rad_1523.paa"};
+	mass = 60;
+	maximumLoad = 320;
+	model = "\task_force_radio_items\models\clf_nicecomm2";
+};
+class OPXT_krtk_typ_1523: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G Kryptek Typhoon";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\krtk_typ_1523_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\krtk_typ_1523.paa"};
 	mass = 60;
 	maximumLoad = 320;
 	model = "\task_force_radio_items\models\clf_nicecomm2";
@@ -174,6 +194,26 @@ class OPXT_ogao_1523: tf_rt1523g {
 	maximumLoad = 320;
 	model = "\task_force_radio_items\models\clf_nicecomm2";
 };
+class OPXT_pen_bad_1523: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G Pencott Badlands";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\pen_bad_1523_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\pen_bad_1523.paa"};
+	mass = 60;
+	maximumLoad = 320;
+	model = "\task_force_radio_items\models\clf_nicecomm2";
+};
+class OPXT_pen_grz_1523: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G Pencott Greenzone";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\pen_grz_1523_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\pen_grz_1523.paa"};
+	mass = 60;
+	maximumLoad = 320;
+	model = "\task_force_radio_items\models\clf_nicecomm2";
+};
 class OPXT_pen_sno_1523: tf_rt1523g {
 	author = "Ma77h3hac83r";
 	scope = 2;
@@ -237,7 +277,7 @@ class OPXT_at_atx_117: tf_rt1523g {
 	maximumLoad = 160;
 	model="\task_force_radio_items\models\clf_prc117g_ap";
 };
-class OPXT_at_au: tf_rt1523g {
+class OPXT_at_au_117: tf_rt1523g {
 	author = "Ma77h3hac83r";
 	scope = 2;
 	displayName = "[OPXT] RT-1523G (small) A-Tacs AU";
@@ -247,7 +287,7 @@ class OPXT_at_au: tf_rt1523g {
 	maximumLoad = 160;
 	model="\task_force_radio_items\models\clf_prc117g_ap";
 };
-class OPXT_at_fg: tf_rt1523g {
+class OPXT_at_fg_117: tf_rt1523g {
 	author = "Ma77h3hac83r";
 	scope = 2;
 	displayName = "[OPXT] RT-1523G (small) A-Tacs FG";
@@ -257,22 +297,12 @@ class OPXT_at_fg: tf_rt1523g {
 	maximumLoad = 160;
 	model="\task_force_radio_items\models\clf_prc117g_ap";
 };
-class OPXT_at_ix: tf_rt1523g {
+class OPXT_at_ix_117: tf_rt1523g {
 	author = "Ma77h3hac83r";
 	scope = 2;
 	displayName = "[OPXT] RT-1523G (small) A-Tacs iX";
 	picture = "\OPXT_TFAR_ITEMS\data\ui\at_ix_117_ui.paa";
 	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\at_ix_117.paa"};
-	mass = 20;
-	maximumLoad = 160;
-	model="\task_force_radio_items\models\clf_prc117g_ap";
-};
-class OPXT_at_le: tf_rt1523g {
-	author = "Ma77h3hac83r";
-	scope = 2;
-	displayName = "[OPXT] RT-1523G (small) A-Tacs LE";
-	picture = "\OPXT_TFAR_ITEMS\data\ui\at_le_117_ui.paa";
-	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\at_le_117.paa"};
 	mass = 20;
 	maximumLoad = 160;
 	model="\task_force_radio_items\models\clf_prc117g_ap";
@@ -287,7 +317,27 @@ class OPXT_blk_117: tf_rt1523g {
 	maximumLoad = 160;
 	model="\task_force_radio_items\models\clf_prc117g_ap";
 };
-class OPXT_krtk_rad: tf_rt1523g {
+class OPXT_krtk_ban_117: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G (small) Kryptek Banshee";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\krtk_ban_117_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\krtk_ban_117.paa"};
+	mass = 20;
+	maximumLoad = 160;
+	model="\task_force_radio_items\models\clf_prc117g_ap";
+};
+class OPXT_krtk_nom_117: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G (small) Kryptek Nomad";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\krtk_nom_117_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\krtk_nom_117.paa"};
+	mass = 20;
+	maximumLoad = 160;
+	model="\task_force_radio_items\models\clf_prc117g_ap";
+};
+class OPXT_krtk_rad_117: tf_rt1523g {
 	author = "Ma77h3hac83r";
 	scope = 2;
 	displayName = "[OPXT] RT-1523G (small) Kryptek Raid";
@@ -297,12 +347,12 @@ class OPXT_krtk_rad: tf_rt1523g {
 	maximumLoad = 160;
 	model="\task_force_radio_items\models\clf_prc117g_ap";
 };
-class OPXT_krtk_yet_117: tf_rt1523g {
+class OPXT_krtk_typ_117: tf_rt1523g {
 	author = "Ma77h3hac83r";
 	scope = 2;
-	displayName = "[OPXT] RT-1523G (small) Kryptek Yeti";
-	picture = "\OPXT_TFAR_ITEMS\data\ui\krtk_yet_117_ui.paa";
-	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\krtk_yet_117.paa"};
+	displayName = "[OPXT] RT-1523G (small) Kryptek Typhoon";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\krtk_typ_117_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\krtk_typ_117.paa"};
 	mass = 20;
 	maximumLoad = 160;
 	model="\task_force_radio_items\models\clf_prc117g_ap";
@@ -383,6 +433,26 @@ class OPXT_ogao_117: tf_rt1523g {
 	displayName = "[OPXT] RT-1523G (small) OGA OD";
 	picture = "\OPXT_TFAR_ITEMS\data\ui\ogao_117_ui.paa";
 	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\ogao_117.paa"};
+	mass = 20;
+	maximumLoad = 160;
+	model="\task_force_radio_items\models\clf_prc117g_ap";
+};
+class OPXT_pen_bad_117: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G (small) Pencott Badlands";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\pen_bad_117_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\pen_bad_117.paa"};
+	mass = 20;
+	maximumLoad = 160;
+	model="\task_force_radio_items\models\clf_prc117g_ap";
+};
+class OPXT_pen_grz_117: tf_rt1523g {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] RT-1523G (small) Pencott Greenzone";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\pen_grz_117_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\pen_grz_117.paa"};
 	mass = 20;
 	maximumLoad = 160;
 	model="\task_force_radio_items\models\clf_prc117g_ap";
@@ -480,22 +550,52 @@ class OPXT_at_ix_210: tf_anarc210 {
 	maximumLoad = 280;
 	model = "\task_force_radio_items\models\TFR_BACKPACK";
 };
-class OPXT_at_le_210: tf_anarc210 {
-	author = "Ma77h3hac83r";
-	scope = 2;
-	displayName = "[OPXT] AN/ARC-210 AOR1";
-	picture = "\OPXT_TFAR_ITEMS\data\ui\at_le_210_ui.paa";
-	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\at_le_210.paa"};
-	mass = 50;
-	maximumLoad = 280;
-	model = "\task_force_radio_items\models\TFR_BACKPACK";
-};
 class OPXT_blk_210: tf_anarc210 {
 	author = "Ma77h3hac83r";
 	scope = 2;
 	displayName = "[OPXT] AN/ARC-210 Black";
 	picture = "\OPXT_TFAR_ITEMS\data\ui\blk_210_ui.paa";
 	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\blk_210.paa"};
+	mass = 50;
+	maximumLoad = 280;
+	model = "\task_force_radio_items\models\TFR_BACKPACK";
+};
+class OPXT_krtk_ban_210: tf_anarc210 {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] AN/ARC-210 Kryptek Banshee";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\krtk_ban_210_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\krtk_ban_210.paa"};
+	mass = 50;
+	maximumLoad = 280;
+	model = "\task_force_radio_items\models\TFR_BACKPACK";
+};
+class OPXT_krtk_nom_210: tf_anarc210 {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] AN/ARC-210 Kryptek Nomad";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\krtk_nom_210_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\krtk_nom_210.paa"};
+	mass = 50;
+	maximumLoad = 280;
+	model = "\task_force_radio_items\models\TFR_BACKPACK";
+};
+class OPXT_krtk_rad_210: tf_anarc210 {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] AN/ARC-210 Kryptek Raid";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\krtk_rad_210_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\krtk_rad_210.paa"};
+	mass = 50;
+	maximumLoad = 280;
+	model = "\task_force_radio_items\models\TFR_BACKPACK";
+};
+class OPXT_krtk_typ_210: tf_anarc210 {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] AN/ARC-210 Kryptek Typhoon";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\krtk_typ_210_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\krtk_typ_210.paa"};
 	mass = 50;
 	maximumLoad = 280;
 	model = "\task_force_radio_items\models\TFR_BACKPACK";
@@ -576,6 +676,26 @@ class OPXT_ogao_210: tf_anarc210 {
 	displayName = "[OPXT] AN/ARC-210 OGA OD";
 	picture = "\OPXT_TFAR_ITEMS\data\ui\ogao_210_ui.paa";
 	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\ogao_210.paa"};
+	mass = 50;
+	maximumLoad = 280;
+	model = "\task_force_radio_items\models\TFR_BACKPACK";
+};
+class OPXT_pen_bad_210: tf_anarc210 {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] AN/ARC-210 Pencott Badlands";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\pen_bad_210_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\pen_bad_210.paa"};
+	mass = 50;
+	maximumLoad = 280;
+	model = "\task_force_radio_items\models\TFR_BACKPACK";
+};
+class OPXT_pen_grz_210: tf_anarc210 {
+	author = "Ma77h3hac83r";
+	scope = 2;
+	displayName = "[OPXT] AN/ARC-210 Pencott Greenzone";
+	picture = "\OPXT_TFAR_ITEMS\data\ui\pen_grz_210_ui.paa";
+	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\pen_grz_210.paa"};
 	mass = 50;
 	maximumLoad = 280;
 	model = "\task_force_radio_items\models\TFR_BACKPACK";
