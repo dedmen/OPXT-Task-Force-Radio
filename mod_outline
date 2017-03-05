@@ -1,0 +1,68 @@
+Handheld
+(B) RF-7800M-HH
+
+Manpack
+(B) RF-7800H-MP
+
+Vehicle
+
+Devices
+(B) RF-3590 Ruggedized Tablet
+
+
+CUP VEHICLES {
+  Germany {
+    "Dingo 2",
+    "CH-53G",
+    "UH-1D"
+  };
+  United Kingdom {
+    "FV432",
+    "FV510",
+    "MCV-80",
+    "Coyote",
+    "Jackal",
+    "Land Rover",
+    "Mastiff",
+    "Ridgback",
+    "Wolfhound",
+    "AH-1",
+    "AW159",
+    "HC-4",
+    "H(C3(A),M2)",
+    "SA-330",
+    "C-130J",
+    "F-35B",
+    "Harrier",
+    "FV4034"
+  };
+  United States Army {
+    "HMMWV",
+    "M163A1(113A3)",
+    "M2A(2,3)",
+    "M11(26,28,29,30,3,35)",
+    "M7",
+    "M270",
+    "MTVR",
+    "AH-64D",
+    "(AH,MH)-6J",
+    "CH-47F",
+    "UH-60(L,M)",
+    "A-10C",
+    "M1A(1,2)"
+  };
+  United States Marine Corps {
+    "AAV",
+    "LAV",
+    "RG-31",
+    "AH-1Z",
+    "CH-53E",
+    "MH-60S",
+    "UH-1Y",
+    "AV-8B",
+    "C-130J",
+    "F-35B",
+    "MV-22B",
+    "M1A(1,2)"
+  };
+};

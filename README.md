@@ -27,9 +27,7 @@
 
 OPXT Task Force Radio is a collection of retextured backpacks for TFAR.
 
-The packs that have been retextured are the RT-1523G (large & small) and the AN/ARC-210 Airborne.
-
-Current collection includes
+# Current Camos
 - AOR1
 - A-Tacs AT-X, AU, FG, iX, LE
 - Black, Gray, Green, Tan, White
@@ -39,3 +37,11 @@ Current collection includes
 - Pencott Snowdrift
 - Project Honor
 - Scorpion
+
+# Current Radios
+- RT-1523G (large & small)
+- AN/ARC-210 Airborne
+
+## Future Plans
+#### Radios
+- Custom vehicle radios (CUP, RHS, etc.)
