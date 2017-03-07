@@ -7,7 +7,7 @@ class cfgPatches {
     units[] = {};
     weapons[] = {};
     requiredVersion = 0.1;
-    requiredAddons[] = {"A3_Modules_F", "A3_UI_F", "A3_Structures_F_Items_Electronics", "A3_Weapons_F_ItemHolders", "task_force_radio_items"};
+    requiredAddons[] = {"A3_Modules_F", "A3_UI_F", "A3_Structures_F_Items_Electronics", "A3_Weapons_F_ItemHolders", "task_force_radio_items", "task_force_radio"};
     author = "Ma77h3hac83r";
     url = "https://forums.bistudio.com/topic/183377-operators-extreme-tactical-addons/";
   };
@@ -35,7 +35,7 @@ class cfgMods {
 class CfgAddons {
 	class PreloadAddons {
 		class A3_Mod {
-			list[] = {"A3_Modules_F","A3_UI_F","A3_Structures_F_Items_Electronics","task_force_radio_items",};
+			list[] = {"A3_Modules_F","A3_UI_F","A3_Structures_F_Items_Electronics","task_force_radio_items","task_force_radio"};
 		};
 	};
 };

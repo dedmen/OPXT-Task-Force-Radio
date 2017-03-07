@@ -9,9 +9,8 @@ class cfgPatches {
       "A3_UI_F",
       "A3_Structures_F_Items_Electronics",
       "A3_Weapons_F_ItemHolders",
-      "tfar_core",
-      "tfar_static_radios",
-      "tfar_backpaks"
+      "task_force_radio_items",
+	  "task_force_radio"
     };
     author = "Ma77h3hac83r";
     url = "https://forums.bistudio.com/topic/183377-operators-extreme-tactical-addons/";
