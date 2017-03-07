@@ -1,6 +1,3 @@
-#include "BIS_AddonInfo.hpp"
-#define _ARMA_
-
 class cfgPatches {
   class OPXT_TFAR_ITEMS {
     name = "OPXT - TFAR - ITEMS";
@@ -16,10 +13,10 @@ class cfgPatches {
 class cfgMods {
     class mod_base;
     class OPXT: mod_base {
-      picture = "\data\logo\OPXTlogoSmall.paa";
-  		logo = "\data\logo\OPXTlogoSmall.paa";
-  		logoOver = "\data\logo\OPXTlogoSmall.paa";
-  		logoSmall = "\data\logo\OPXTlogoSmall.paa";
+      picture = "\OPXT_TFAR_ITEMS\data\logo\OPXTlogoSmall.paa";
+  		logo = "\OPXT_TFAR_ITEMS\data\logo\OPXTlogoSmall.paa";
+  		logoOver = "\OPXT_TFAR_ITEMS\data\logo\OPXTlogoSmall.paa";
+  		logoSmall = "\OPXT_TFAR_ITEMS\data\logo\OPXTlogoSmall.paa";
   		tooltip = "OPXT";
   		tooltipOwned = "OPXT TFAR Owned";
   		action = "https://forums.bistudio.com/topic/183377-operators-extreme-tactical-addons/";
@@ -28,7 +25,7 @@ class cfgMods {
       hidePicture = 0;
       name = "OPXT Task Force Radio 1.1.1";
       author = "Ma77h3hac83r";
-      overviewPicture = "\data\logo\OPXTlogoSmall.paa";
+      overviewPicture = "\OPXT_TFAR_ITEMS\data\logo\OPXTlogoSmall.paa";
     };
 };
 

@@ -1,5 +1,3 @@
-class Item_Base_F;
-class TFAR_Bag_Base;
 class tf_rt1523g_big;
 class tf_rt1523g;
 class tf_anarc210;

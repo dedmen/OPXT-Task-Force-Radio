@@ -10,4 +10,5 @@ class HiddenButton;
 class HiddenRotator : HiddenButton{};
 class HiddenFlip : HiddenButton{};
 
-#include "\OPXT_TFAR\radios\anarc210rcu\anarc210rcu.ext"
+#include "define.hpp"
+#include "radios\anarc210rcu\anarc210rcu.ext"

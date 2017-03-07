@@ -1,7 +1,6 @@
-class OPXT_aor1_210;
 class tf_rt1523g;
 class tf_rt1523g_big;
-class TFAR_Bag_Base;
+class tf_anarc210;
 
 //---------- RT-1523G ASIP ----------//
 
@@ -50,11 +49,6 @@ class OPXT_krtk_nom_1523: OPXT_aor1_1523 {
 	displayName = "[OPXT] RT-1523G Kryptek Nomad";
 	picture = "\OPXT_TFAR_ITEMS\data\ui\krtk_nom_1523_ui.paa";
 	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\krtk_nom_1523.paa"};
-};
-class OPXT_krtk_rad_1523: OPXT_aor1_1523 {
-	displayName = "[OPXT] RT-1523G Kryptek Raid";
-	picture = "\OPXT_TFAR_ITEMS\data\ui\krtk_rad_1523_ui.paa";
-	hiddenSelectionsTextures[] = {"\OPXT_TFAR_ITEMS\data\textures\krtk_rad_1523.paa"};
 };
 class OPXT_krtk_rad_1523: OPXT_aor1_1523 {
 	displayName = "[OPXT] RT-1523G Kryptek Raid";
